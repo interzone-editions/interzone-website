@@ -1,0 +1,106 @@
+.header {
+    background-color: #1B1B1B;
+    margin: 0px;
+    width: calc(100% - 4rem);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6rem;
+    padding: 0 2rem 0;
+}
+
+.header-title {
+    font-size: 32px;
+    font-weight: 400;
+    color: #FFFF;
+}
+
+.header-title a {
+    color: #FFFF;
+    text-decoration: none;
+}
+
+.header-title a:hover {
+    cursor: pointer;
+}
+
+.header img {
+    max-width: 80px;
+    align-self: center;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+.header > img:hover {
+    max-height: 95px;
+    align-self: center;
+    cursor: pointer;
+}
+
+/* Cross button */
+.cross-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+.cross-line {
+    position: absolute;
+    width: 4px;
+    height: 40px;
+    background-color: #FFFFFF;
+    border-radius: 2px;
+    transition: background-color 0.3s ease;
+}
+
+.cross-line:first-child {
+    transform: rotate(45deg);
+}
+
+.cross-line:last-child {
+    transform: rotate(-45deg);
+}
+
+.cross-button:hover .cross-line {
+    background-color: #9DFF00;
+}
+
+/* Fade animations */
+.fade-in {
+    animation: fadeIn 0.3s ease forwards;
+}
+
+.fade-out {
+    animation: fadeOut 0.3s ease forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+        transform: scale(1);
+    }
+    to {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+}
