@@ -1,0 +1,17 @@
+:root {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+
+  color: black;
+  background-color: #FFFFFF;
+}
+
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
