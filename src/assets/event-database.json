@@ -1,0 +1,103 @@
+[
+    {
+        "id": "1",
+        "name": "A Terrible Beauty Is Born",
+        "date": "January 15, 2019",
+        "venue": "TurboHaus",
+        "cover": "https://lh3.googleusercontent.com/d/1OmHUBPV-sqi-AjHi59hD5a6-ARin4reB=w500?authuser=0",
+        "artists": ["Dreamcrusher", "E-Saggila", "Death Kneel", "Soeur Acéphale", "La Naegleria", "OOPS'D"],
+        "credits": ["Poster by Andres Gourgues"],
+        "media": []
+    },
+    {
+        "id": "2",
+        "name": "The Projection Of The True Body",
+        "date": "April 6, 2019",
+        "venue": "La Sala Rossa",
+        "cover": "https://lh3.googleusercontent.com/fife/ALs6j_Ev-OjKGmbNZ_c8uiEtSoMT-aBaSTV6tKEH5Bou_1PmqiqPT5pZj3WOsh7J-MbgHlnxbMpO-s1Tbm8-z8gtUcRJ5f21HF7Uk238zOPiDwEN686tr96TUaNteYD8d71nvvhQhq7FSJFNB6Gb7FwYfzGEETgGpEdSTgcRYw7rQcyMQDGI8NrGJzqvTd99wYdpDd7O1j-HAtOxT_u16XelqIgQrnde8iwTuqUh3zYC_iTS5zyr1Ody8uXTi1tg6J0eug9NUmq-epVkRIx_1jEtzpj15FKRr3OyL7GLwC-_TFaCU3UYQo7KikYRDXXojLiU04eTtqEH0W9HEbD9dqqoV9tY4xuut79APtrhwoHwm--xy1_7bD7_RJ0XLKMNozKsLJc7lu2zqfVIBdzfLCJkoQWQchvBw92fvOXri0N-5HeGzZg3kHvDLWBQEL4ARZd4SEkyuaYSEl-M1cwzMG59-0t-cEDaEkB8BrbVbPVNLQh4nr_o-THM-UeighhQzf-c-MsRLjgbW-C7J7Vw9yzjZvtpvDOywpr2CAXubXDxynr1K2ldjd7FQj4kyK0ZzIqIOG_BMR987OczsmTCuZeGMtUXWrwDvgZ0AxTj-9D7Z3EUH6WvEzLiumNMwbuVTN6BvMu7V_zOK5Tod9Efip_DkG_OHEaBSdMbQ8fJnjjY-0dBWhS3OQ5Uq3ZRZEkPVsXjCf548AmzUQWdKM-b4OGFv-AyTQtPwMCaPsGn72h8_cnLzJIw5i1Hcl2aTWJwL_h0TfzCWNzUce0HlYhDwbjtN0STIBy-dwB-ibHiFCWRtxeb6ywpQYU3MCNTeNM5gMm7lDnHrvTHoJug5WNvsPSMPqmCmuXV9PgQstx-KWznEaama0Pgi-kyuRiKlSQAVTcidNBTI31fJTkV4Q2-sWHIQkWirmqjEsK-QpdD5A63T7oH2dLsd5VHluOMNbUTZkQtQap96N-VAkaBn7kIsXRneQ2LfCI9lEwysr-Gga0wovOlh7i8vAcr0myEvrXLn1b-l9_2P5ihjgT1uMoW_EPUCzJdnuAvn1GCeX05MPFUGHHbY4FELKX4bC-c-XNeyxfE=w500?authuser=0",
+        "artists": ["JS Aurelius", "Hogg", "Formal Sins", "Girl Circles", "Bena"],
+        "credits": ["Poster by Andres Gourgues"],
+        "media": []
+    },
+    {
+        "id": "3",
+        "name": "All Have Taken Off Their Shirts Of Skins",
+        "date": "June 20, 2019",
+        "venue": "Casa Del Popolo",
+        "cover": "https://lh3.googleusercontent.com/d/1UHkf0StqC8FUsGjgSBBfbqjjDFHuwBm6=w500?authuser=0",
+        "artists": ["Wetware", "Champagne Mirrors", "Beep Test", "Liar//Lier"],
+        "credits": ["Poster by Andres Gourgues"],
+        "media": []
+    },
+    {
+        "id": "4",
+        "name": "Remnants Of What Once Was",
+        "date": "June 20, 2019",
+        "venue": "Casa Del Popolo",
+        "cover": "https://lh3.googleusercontent.com/d/1JZSAJUjaFTOlQuff_4mBwI_BZtoN4MVw=w500?authuser=0",
+        "artists": ["Wetware", "Champagne Mirrors", "Beep Test", "Liar//Lier"],
+        "credits": ["Poster by Andres Gourgues"],
+        "media": []
+    },
+    {
+        "id": "5",
+        "name": "Devenir Personne",
+        "date": "January 10, 2020",
+        "venue": "Durocher Basement",
+        "cover": "https://lh3.googleusercontent.com/d/1uz7UQyLrhlSe2wn333XPyyNrwcy-TAPw=w500?authuser=0",
+        "artists": ["Nate Young", "Jesse Osborne-Lanthier", "Container", "Alex Moskos Plays The New Style", "U.E", "Habib Bardi & Ghazi Bena"],
+        "credits": [
+            "Premiering of Devenir Personne. A film by William Humphrey",
+            "Poster by Andres Gourgues"
+        ],
+        "media": []
+    },
+    {
+        "id": "6",
+        "name": "Transcendental Cuisine (The Glublthulunnubeth)",
+        "date": "April 29, 2022",
+        "venue": "La Sotterenea",
+        "cover": "",
+        "artists": ["Nixtrove", "Stan K", "Wormhole of Doubt", "Myfanwy", "Matthew Raymond", "Neo Edo"],
+        "credits": [
+            "Poster by Arta Tajei"
+        ],
+        "media": []
+    },
+    {
+        "id": "7",
+        "name": "Fragile Opening",
+        "date": "August 20, 2022",
+        "venue": "La Sala Rossa",
+        "cover": "https://lh3.googleusercontent.com/d/17CjSuJLmS1Ndv75TaH8_c6wdkD4RExxo=w500?authuser=0",
+        "artists": ["Orchestroll", "Amselysen + Racine", "Ana DM", "Myriam Bleau", "Worm Quartet"],
+        "credits": [
+            "Poster by Jules Galbraith"
+        ],
+        "media": []
+    },
+    {
+        "id": "8",
+        "name": "Cantus (Non) Firmus",
+        "date": "February 18, 2023",
+        "venue": "Saint-Édouard Church",
+        "cover": "",
+        "artists": ["Alex Zhang Hungtai", "Leila Bordreuil", "Leo Chang", "Yves Charuest"],
+        "credits": [
+            "Poster by Jesse Osborne-Lanthier"
+        ],
+        "media": []
+    },
+    {
+        "id": "10",
+        "name": "Crosscurrents",
+        "date": "August 30, 2024",
+        "venue": "Ateliers Belleville",
+        "cover": "https://lh3.googleusercontent.com/d/1TVzcI2TXlOhkvKg7WvNnuJLzXbVD2J5Z=w500?authuser=0",
+        "artists": ["Kieran Daly", "Yves Charuest", "Audréanne Filion", "Joël Lavoie & Philippe Vandal"],
+        "credits": [
+            "Poster by Jesse Osborne-Lanthier"
+        ],
+        "media": []
+    }
+]
