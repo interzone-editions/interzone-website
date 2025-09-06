@@ -7,7 +7,8 @@ import {
 
 import MainLayout from "./components/MainLayout"
 import Home from "./pages/Home"
-import Details from "./pages/Details"
+import ReleaseDetails from "./pages/ReleaseDetails"
+import EventDetails from "./pages/EventDetails"
 import Grid from "./pages/Grid"
 
 import NotFound from "./pages/NotFound"
@@ -18,13 +19,13 @@ function App() {
 
       <Route index element={<Home />} />
       <Route path="releases" element={<Grid/>} />
-      <Route path="releases/:id" element={<Details />} />
+      <Route path="releases/:id" element={<ReleaseDetails />} />
       
       <Route path="events" element={<Grid/>} />  
-      <Route path="events/:id" element={<Details />} />
+      <Route path="events/:id" element={<EventDetails />} />
       
-      <Route path="radio" element={<Grid/>}/>  
-      <Route path="radio/:id" element={<Details />} />
+      {/* <Route path="radio" element={<Grid/>}/>   */}
+      {/* <Route path="radio/:id" element={<h1>Radio shows here</h1>} /> */}
           
       <Route path="*" element={<NotFound />} />
     </Route>  
