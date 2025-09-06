@@ -1,0 +1,52 @@
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 40vh));
+    gap: 5rem;
+    margin: 0px 2rem;
+    
+    justify-content: center;
+}
+
+.grid-tile {
+    background-color: rgba(0, 0, 0, 0.1);
+    aspect-ratio: 1;
+    position: relative;
+}
+
+.grid-tile .tile-image {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.33s;
+}
+
+
+.tile-overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.75);
+    transition: opacity 0.33s;
+    opacity: 0%;
+    box-sizing: content-box;
+    top:0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.tile-overlay .tile-text {
+    font-size: 1.5rem;
+    margin: 2%;
+    color: #FFFFFF;
+    text-align: center;
+}
+  
+.grid-tile:hover .tile-overlay {
+    opacity: 75%;
+    border: 4px solid #9DFF00;
+}
