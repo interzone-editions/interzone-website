@@ -5,7 +5,22 @@
     color: #B9B9B9;
     font-size: 20px;
     font-weight: 400;
-    height: 8vh;
+    height: 5rem;
     padding-left: 52px;
     padding-right: 52px;      
+}
+
+@media only screen and (max-width: 800px) {
+
+    .collective-name {
+        visibility: hidden;
+        width: 0px;
+        height: 0px;
+    }
+
+    .footer {
+        justify-content: center;
+        text-align: center;
+        padding: 0px 20px 0px 20px;
+    }
 }

@@ -1,6 +1,6 @@
 .menu-list {
     position: absolute;
-    height: 100%;
+    height: calc(100% - 8.5rem);
     width: calc(100% - 1.5rem) ;
     background-color: #1B1B1B;
     padding: 0.5rem 0rem 2rem 1.5rem;
