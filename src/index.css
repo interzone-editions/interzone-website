@@ -1,0 +1,70 @@
+* {
+  font-family: 'Inter';
+  color: white;
+  background-color: black;
+}
+
+h1,
+h2,
+h3,
+h4,
+.link, 
+.more-link {
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 0.02em;
+  color: white;
+}
+
+p {
+  letter-spacing: 0em;
+}
+
+body {
+  background-color: black;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+/* UTILITY CLASSES */
+.link {
+  background-color: black;
+  text-align: center;
+  text-decoration: none;
+  color: white !important;
+}
+
+.more-link {
+  background-color: black;
+  text-align: center;
+  text-decoration: none;
+  color: white !important;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+}
+
+.link:hover, .more-link:hover {
+  opacity: 0.7;
+}
+
+.text-justify {
+  text-align: justify !important;
+}
+
+/* SINGLE EVENT PAGE */
+.event-cover {
+  max-width: 80vw;
+}
+
+/* SINGLE RELEASE PAGE */
+.release-cover {
+  width: 550px;
+}
+
+.release-player-cover-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
