@@ -1,0 +1,7 @@
+.nav-link {
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 0.02em;
+  color: white !important;
+  font-size: 1.4em !important;
+  max-width: fit-content;
+}
