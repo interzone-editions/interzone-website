@@ -14,3 +14,10 @@
 .modal-90w {
   min-width: 90vw;
 }
+
+.modal-content, .modal-body, .modal-header {
+  border-left: none !important;
+  border-right: none !important;
+  border-top: none !important;
+  border-bottom: none !important;
+}

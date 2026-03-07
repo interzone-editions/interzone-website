@@ -1,6 +1,8 @@
 import { useRef, useState } from 'react'
 import CardItem from './CardItem'
 import "./CardList.css"
+import { Link } from 'react-router'
+import { Row } from 'react-bootstrap'
 
 function CardList({ items, section }) {
     const [buttonsActive, setButtonsActive] = useState({ prev: false, next: true })
@@ -9,8 +11,8 @@ function CardList({ items, section }) {
 
     const handleScroll = (scrollRight = true) => {
 
-        const nextScroll = scrollRight ? containerRef.current.scrollLeft + 400 : containerRef.current.scrollLeft - 400
-        if (nextScroll >= containerRef.current.scrollWidth - 450) {
+        const nextScroll = scrollRight ? containerRef.current.scrollLeft + 300 : containerRef.current.scrollLeft - 300
+        if (nextScroll >= containerRef.current.scrollWidth - 350) {
             containerRef.current.scrollLeft = containerRef.current.scrollWidth
             setButtonsActive({ prev: true, next: false })
 
@@ -29,7 +31,11 @@ function CardList({ items, section }) {
 
     return (
         <>
-            <h2 className='mt-4 mb-4'>{section}</h2>
+            <div className='mt-4 mb-4 d-flex gap-2 justify-content-start align-items-end'>
+            <h2 className='mb-1'>{section}</h2>
+            <Link to={`/${section}`} className='more-info-btn'>(See All)</Link>
+
+            </div>
             <div className='card-list-container'>
                 <div className="buttons">
                     <button disabled={!buttonsActive.prev} onClick={() => handleScroll(false)} className='card-list-prev-button'>

@@ -1,3 +1,51 @@
 .home-carousel {
   min-height: 85vh; 
 }
+
+.carousel-caption {
+  position: absolute !important;
+  left: 0;
+  right: 0;
+  width: 20rem;
+  height: 15%;
+}
+
+.carousel-item {
+  height: 80vh;
+}
+
+.carousel-control-next {
+  justify-content: end;
+  padding-right: 10px;
+}
+
+.carousel-control-prev {
+  justify-content: start;
+  padding-left: 10px;
+
+}
+
+.carousel-img {
+  width: 100%;
+  height: 100%;
+  object-fit: scale-down;
+}
+
+@media only screen and (min-width: 992px) {
+  .carousel-caption {
+    margin-left: 10% !important;
+    left: 0;
+    width: 30%;
+    max-width: 450px;
+    height: 15%;
+  }
+
+  .carousel-control-next {
+    justify-content:flex-end;
+    padding-right: 10rem;
+  }
+  .carousel-control-prev {
+    justify-content: flex-start;
+    padding-left: 10rem;
+  }
+}
