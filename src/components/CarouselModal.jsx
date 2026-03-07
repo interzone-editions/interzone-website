@@ -10,12 +10,12 @@ export default function CarouselModal(props) {
             aria-labelledby="media-modal"
             centered
         >
-            <Modal.Header closeButton className='btn-close-white border-0'>
+            <Modal.Header closeButton className='btn-close-white'>
             </Modal.Header>
             <Modal.Body>
-                <Carousel interval={null} activeIndex={props.index} onSelect={props.handleSelect} indicators={false}>
+                <Carousel interval={null} activeIndex={props.index} onSelect={props.onSelect} indicators={false}>
                     {props.items.map(item => (
-                        <Carousel.Item>
+                        <Carousel.Item key={`carousel-modal-${item.url}`}>
                             <div className='p-0 m-0 modal-img-section'>
                                 <img className="modal-img" src={item.url} />
                             </div>

@@ -12,12 +12,12 @@ function NavBar() {
         <Navbar collapseOnSelect expand={expand} bg="black" className="mb-4 p-0 border-bottom border-light z-3">
             <Container fluid >
                 <Navbar.Brand className='pb-1 p-0'>
-                    <Link to="/">
+                    <Link to="/" className='nav-logo-img'>
                         <img
                             alt="Interzone logo"
                             src={logo}
                             width="53"
-                            className="d-inline-block align-top"
+                            className="d-inline-block align-top logo-img"
                         />
                     </Link>
                 </Navbar.Brand>
@@ -50,13 +50,13 @@ function NavBar() {
                             >
                                 EVENTS
                             </Nav.Link>  
-                            <Nav.Link 
+<Nav.Link 
+                                as={Link} 
+                                href='/releases' 
                                 to="/releases" 
-                                href="https://interzoneeditions.bandcamp.com/music" 
                                 className='link px-2'
-                                target="_blank" 
                             >
-                                RELEASES
+                                releases
                             </Nav.Link>  
                             <Nav.Link 
                                 href="https://www.mixcloud.com/n10as/playlists/interzone/" 

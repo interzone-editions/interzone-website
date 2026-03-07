@@ -5,10 +5,17 @@
         "date": "January 19, 2019",
         "venue": "TurboHaus",
         "cover": "/events-posters/01.png",   
-        "desc": ["Interzone Inauguration w/ Dreamcrusher, E-Saggila, Death Kneel, Soeur Acéphale, La Naegleria, OOPS'D"],     
+        "desc": ["All changed, changed utterly: A terrible beauty is born", "Interzone Inauguration w/ Dreamcrusher, E-Saggila, Death Kneel, Soeur Acéphale, La Naegleria and OOPS'D"],     
         "artists": ["Dreamcrusher", "E-Saggila", "Death Kneel", "Soeur Acéphale", "La Naegleria", "OOPS'D"],
-        "credits": ["Poster by Andres Gourgues"],
-        "ticketLink":"",
+        "credits": [
+            {
+                "text":"Poster by Andres Gourgues",
+                "linkText": "Andres Gourgues",
+                "link": ""
+            }
+        ],
+        
+        "ticketLink":"https://www.ticketfairy.com/event/interzone-dreamcrusher-e-saggila-death-kneel-soeur-acephale-25jan2019/",
         "media": []
     },
     {
@@ -17,10 +24,16 @@
         "date": "April 6, 2019",
         "venue": "La Sala Rossa",
         "cover": "/events-posters/02.jpg",   
-        "desc": ["A concert featuring JS Aurelius, Hogg, Formal Sins, Girl Circles and Bena (DJ"],
+        "desc": ["The Projection of the True Body : To lay bare the body, beyond the subterfuges of the mind", "A concert featuring JS Aurelius, Hogg, Formal Sins, Girl Circles and Bena (DJ)"],
         "artists": ["JS Aurelius", "Hogg", "Formal Sins", "Girl Circles", "Bena"],
-        "credits": ["Poster by Andres Gourgues"],
-        "ticketLink":"",
+        "credits": [
+            {
+                "text":"Poster by Andres Gourgues",
+                "linkText": "Andres Gourgues",
+                "link": ""
+            }
+        ],        
+        "ticketLink":"https://lepointdevente.com/billets/interzone2",
         "media": []
     },
     {
@@ -31,7 +44,13 @@
         "cover": "/events-posters/03.png",   
         "desc": ["A concert featuring Wetware, Champagne Mirrors, Beep Test and Liar//Lier"],
         "artists": ["Wetware", "Champagne Mirrors", "Beep Test", "Liar//Lier"],
-        "credits": ["Poster by Andres Gourgues"],
+        "credits": [
+            {
+                "text":"Poster by Andres Gourgues",
+                "linkText": "Andres Gourgues",
+                "link": ""
+            }
+        ],
         "ticketLink":"",
         "media": []
     },
@@ -43,7 +62,13 @@
         "cover": "/events-posters/04.png",   
         "desc": ["A concert featuring Wetware, Champagne Mirrors, Beep Test and Liar//Lier"],
         "artists": ["Wetware", "Champagne Mirrors", "Beep Test", "Liar//Lier"],
-        "credits": ["Poster by Andres Gourgues"],
+        "credits": [
+            {
+                "text":"Poster by Andres Gourgues",
+                "linkText": "Andres Gourgues",
+                "link": ""
+            }
+        ],        
         "ticketLink":"",
         "media": []
     },
@@ -56,8 +81,16 @@
         "desc": ["A concert featuring Nate Young, Jesse Osborne-Lanthier, Container, Alex Moskos, U.E. + screening of Devenir Personne – A film by William Humphrey w/ live score performed by Habib Bardi & Ghazi Bena"],
         "artists": ["Nate Young", "Jesse Osborne-Lanthier", "Container", "Alex Moskos Plays The New Style", "U.E", "Habib Bardi & Ghazi Bena"],
         "credits": [
-            "Premiering of Devenir Personne. A film by William Humphrey",
-            "Poster by Andres Gourgues"
+            {
+                "text": "Premiering of Devenir Personne. A film by William Humphrey",
+                "linkText": "William Humphrey",
+                "link": ""
+            },
+            {
+                "text":"Poster by Andres Gourgues",
+                "linkText": "Andres Gourgues",
+                "link": ""
+            }
         ],
         "ticketLink":"",
         "media": []
@@ -200,6 +233,26 @@
             "Artwork by Eva Miette"
         ],
         "ticketLink":"",
+        "media": []
+    },
+    {
+        "id": "14",
+        "title": "Interzone: Season Fundraiser",
+        "date": "January 23, 2026",
+        "venue": "White Wall Studio",
+        "cover": "/events-posters/14.png",   
+        "artists": ["Andrew Cyrille", "5ilience"],
+        "desc": [
+            "A concert featuring Emna Mâaref, Nahash, fdg., Ema Pope, Yves Charuest, Miette + Physis – on January 23rd at Kawalees",
+            "~ 5175A Avenue du Parc, H2V 4G3 (ex-Resonance Café)",
+            "~ Doors at 7:30PM",
+            "~ 10$ / 15$ suggested",
+            "The funds raised through this concert will go toward the projects, releases, and events we have planned for 2026 — including a 12-inch by the great Emna Mâaref (her first full-length solo oud album), an album by Richard Scott, Audrey Chen and Yves Charuest, and two upcoming concerts this spring. Come support Interzone’s continuation… 🌀"
+        ],
+        "credits": [
+            "Artwork by Eva Miette"
+        ],
+        "ticketLink":"https://www.zeffy.com/en-CA/ticketing/interzone-season-fundraiser",
         "media": []
     }
 ]

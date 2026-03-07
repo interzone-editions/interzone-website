@@ -1,0 +1,14 @@
+.bc-button {
+  display: flex;
+  align-items: center;
+  width: 1rem;
+}
+
+.bc-button-img {
+  width: 20px;
+  object-fit: cover;
+}
+
+.bc-button:hover {
+  opacity: 0.8;
+}

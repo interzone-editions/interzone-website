@@ -1,5 +1,6 @@
 import { Outlet, useLocation } from "react-router-dom";
 import Navbar from "./NavBar";
+import Footer from "./Footer"
 import { useLayoutEffect } from "react";
 import releases from "/src/assets/release-database.json"
 import events from "/src/assets/event-database.json"
@@ -8,12 +9,14 @@ import recent from "/src/assets/recent-activities.json"
 
 export default function MainLayout() {
     const location = useLocation();
-    
+    const sortedReleases = releases.sort((a, b) => b.id - a.id)
+    const sortedEvents = events.sort((a, b) => b.id - a.id)
+
     const context = {
-        recent: recent, 
-        releases: releases.reverse(), 
-        events: events.reverse(), 
-        about: about
+        about: about,
+        releases: sortedReleases, 
+        events: sortedEvents, 
+        recent: recent 
     }
     
     useLayoutEffect(() => {
@@ -24,7 +27,7 @@ export default function MainLayout() {
         <>
             <Navbar />
             <Outlet context={context}/>
-            {/* <Footer /> */}
+            <Footer />
         </>
     )
 }
@@ -33,7 +36,7 @@ export function useEvent(id) {
     const event = events.find(event => event.id === id)
     if (!event) {
         throw {
-            message: "no such event"        
+            message: "Event not found"        
         }
     }
     else {
@@ -45,7 +48,7 @@ export function useRelease(id) {
     const release = releases.find(release => release.id === id)
     if (!release) {
         throw {
-            message: "no such release"
+            message: "Release not found"
         }
     }
     else {

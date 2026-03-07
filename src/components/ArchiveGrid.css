@@ -1,14 +1,24 @@
-.archive-section{
+.archive-section {
   width: 100vw;
   margin: auto;
 }
 
-.archive-button img{
+.archive-button img {
+  max-width: 100%;
+}
+
+.archive-button {
   max-width: 100%;
 }
 
 @media only screen and (min-width: 768px) {
-.archive-button img{
-  max-width: 400px;
+  .archive-button {
+    max-width: 50%;
+  }
 }
+
+@media only screen and (min-width: 992px) {
+  .archive-button {
+    max-width: 33%;
+  }
 }
