@@ -31,7 +31,30 @@
             "packageId": "3880674211",
             "link": "https://interzoneeditions.bandcamp.com/album/the-desert-grows-the-sign-is-near"
         },
-        "media": []
+        "buySection": [
+            {
+                "link": "https://interzoneeditions.bandcamp.com/album/the-desert-grows-the-sign-is-near",
+                "paragraph": "Digital Album — $6 CAD / $4.32 USD",
+                "linkSection": "Digital Album"
+            },
+            {
+                "link": "https://interzoneeditions.bandcamp.com/album/the-desert-grows-the-sign-is-near",
+                "paragraph": "Limited Edition Cassette — $8 CAD / $5.76 USD + shipping",
+                "linkSection": "Limited Edition Cassette"
+            },
+            {
+                "paragraph": "Embossed J-card, clear case and red tape. Edition of 50"
+            },
+            {
+                "paragraph": "Includes unlimited streaming of The Desert Grows... The Sign Is Near via the free Bandcamp app, plus high-quality download in MP3, FLAC and more."
+            }
+        ],
+        "media": [
+            {
+                "type": "image",
+                "url": "https://f4.bcbits.com/img/0031299710_10.jpg"                    
+            }
+        ]
     },
     {
         "id": "2",
@@ -63,11 +86,34 @@
 
         "bandcamp": {
             "videoId": "",
-            "albumId": "2821661729",
-            "packageId": "3880674211",
-            "link": "https://interzoneeditions.bandcamp.com/album/the-desert-grows-the-sign-is-near"
+            "albumId": "1744329823",
+            "packageId": "2714850431",
+            "link": "https://interzoneeditions.bandcamp.com/album/how-we-melt"
         },
-        "media": []
+        "buySection": [
+            {
+                "link": "https://interzoneeditions.bandcamp.com/album/how-we-melt",
+                "paragraph": "Digital Album — $6 CAD / $4.32 USD",
+                "linkSection": "Digital Album"
+            },
+            {
+                "link": "https://interzoneeditions.bandcamp.com/album/how-we-melt",
+                "paragraph": "Limited Edition Cassette — $8 CAD / $5.76 USD + shipping",
+                "linkSection": "Limited Edition Cassette"
+            },
+            {
+                "paragraph": "Embossed J-card, clear case and red tape. Edition of 50"
+            },
+            {
+                "paragraph": "Includes unlimited streaming of How We Melt via the free Bandcamp app, plus high-quality download in MP3, FLAC and more."
+            }
+        ],
+        "media": [
+            {
+                "type": "image",
+                "url": "https://f4.bcbits.com/img/0031299775_10.jpg"                    
+            }
+        ]
     },
     {
         "id": "3",
@@ -104,7 +150,30 @@
             "packageId": "4244707891",
             "link": "https://interzoneeditions.bandcamp.com/album/termite-wonderland"
         },
-        "media": []
+        "buySection": [
+            {
+                "link": "https://interzoneeditions.bandcamp.com/album/termite-wonderland",
+                "paragraph": "Digital Album — $6 CAD / $4.32 USD",
+                "linkSection": "Digital Album"
+            },
+            {
+                "link": "https://interzoneeditions.bandcamp.com/album/termite-wonderland",
+                "paragraph": "Limited Edition Cassette — $8 CAD / $5.76 USD + shipping",
+                "linkSection": "Limited Edition Cassette"
+            },
+            {
+                "paragraph": "Embossed J-card, clear case and red tape. Edition of 50"
+            },
+            {
+                "paragraph": "Includes unlimited streaming of Termite Wonderland via the free Bandcamp app, plus high-quality download in MP3, FLAC and more."
+            }
+        ],
+        "media": [
+            {
+                "type": "image",
+                "url": "https://f4.bcbits.com/img/0031299723_10.jpg"                    
+            }
+        ]
     },
     {
         "id": "4",
@@ -138,7 +207,35 @@
             "packageId": "3592361087",
             "link": "https://interzoneeditions.bandcamp.com/album/we-dream-of-lapsing-back-into-zero"
         },
-        "media": []
+        "buySection": [
+            {
+                "link": "https://interzoneeditions.bandcamp.com/album/we-dream-of-lapsing-back-into-zero",
+                "paragraph": "Digital Album — $1 CAD / $0.72 USD",
+                "linkSection": "Digital Album"
+            },
+            {
+                "link": "https://interzoneeditions.bandcamp.com/album/we-dream-of-lapsing-back-into-zero",
+                "paragraph": "Limited Edition Cassette — $9 CAD / $6.48 USD + shipping",
+                "linkSection": "Limited Edition Cassette"
+            },
+            {
+                "paragraph": "Includes unlimited streaming of We Dream of Lapsing Back into Zero via the free Bandcamp app, plus high-quality download in MP3, FLAC and more."
+            }
+        ],
+        "media": [
+            {
+                "type": "image",
+                "url": "https://f4.bcbits.com/img/0036997507_10.jpg"                    
+            },
+            {
+                "type": "image",
+                "url": "https://f4.bcbits.com/img/0036997508_10.jpg"                    
+            },
+            {
+                "type": "image",
+                "url": "https://f4.bcbits.com/img/0036997509_10.jpg"                    
+            }
+        ]
     },
     {
         "id": "5",
@@ -148,20 +245,20 @@
         "artist": "VA",
         "cover": "https://f4.bcbits.com/img/a4223233001_10.jpg",
         "tracklist": [
-            "Ana Dall'Ara-Majek – Birth of the Shells",
-            "Stan K – ANNUL_01_08",
-            "Amselysen – Rétention Solaire",
-            "Orders From Upstairs – Catholic Anarchist Day",
-            "Yves Charuest – In Progress Or Is It",
-            "Wormhole Of Doubt – Concrete Teardrop",
-            "Terrestrial Paradise – Caligo",
-            "Matthew Raymond – Untitled",
-            "MS – To Love One's Fate",
-            "Champagne Mirrors – julianus apostata",
-            "Bakantez – Rubedo",
-            "Nixtrove – ludic",
-            "irl – oil out the palm",
-            "Lyndsie Alguire – the first ones to leave the water"
+            "Ana Dall'Ara-Majek — Birth of the Shells",
+            "Stan K — ANNUL_01_08",
+            "Amselysen — Rétention Solaire",
+            "Orders From Upstairs — Catholic Anarchist Day",
+            "Yves Charuest — In Progress Or Is It",
+            "Wormhole Of Doubt — Concrete Teardrop",
+            "Terrestrial Paradise — Caligo",
+            "Matthew Raymond — Untitled",
+            "MS — To Love One's Fate",
+            "Champagne Mirrors — julianus apostata",
+            "Bakantez — Rubedo",
+            "Nixtrove — ludic",
+            "irl — oil out the palm",
+            "Lyndsie Alguire — the first ones to leave the water"
         ],
         "desc": [
             "WHAT IS A WORLD THAT IS NOT A THING YET?",
@@ -180,8 +277,15 @@
             "videoId": "",
             "albumId": "4155392824",
             "packageId": "",
-            "link": "https://interzoneeditions.bandcamp.com/album/we-dream-of-lapsing-back-into-zero"
+            "link": "https://interzoneeditions.bandcamp.com/album/larval-worlds"
         },
+        "buySection": [
+            {
+                "link": "https://interzoneeditions.bandcamp.com/album/larval-worlds",
+                "paragraph": "Digital Album — PWYC",
+                "linkSection": "Digital Album"
+            }
+        ],
         "media": []
     },    
     {
@@ -201,6 +305,8 @@
             "This exhaustion, this vulnerability — it is not a question of staging it, but of finding therein a condition, a support, perhaps a sign; to tend towards this mobile point where the intentional and the accidental, the highest activity and the frailest passivity converge: it is one of the moments of this search that we had the immense privilege to capture that evening, and to present today."        
         ],
         "credits": [
+            "Yves Charuest: Alto saxophone",
+            "Recorded live at Cantus (Non) Firmus, a concert organized by Interzone Editions on 18/02/2023 at the Saint-Édouard Church in Tiohtià:ke (Montreal)",
             "Audio Recording, Photography, Design & Layout: Francesco De Gallo", 
             "Mixing & Mastering: Jean-François Blouin", 
             "Liner notes by Habib Bardi", 
@@ -213,11 +319,47 @@
             "packageId": "2371174631",
             "link": "https://interzoneeditions.bandcamp.com/album/out-into-2"
         },
-        "media": []
+        "buySection": [
+            {
+                "link": "https://interzoneeditions.bandcamp.com/album/out-into-2",
+                "paragraph": "Digital Album — $7 CAD / $5.04 USD",
+                "linkSection": "Digital Album"
+            },
+            {
+                "link": "https://interzoneeditions.bandcamp.com/album/out-into-2",
+                "paragraph": "Limited Edition Compact Disc — $14 CAD / $10.08 USD + shipping",
+                "linkSection": "Limited Edition Compact Disc"
+            },
+            {
+                "paragraph": "CD version of the 'out into' album comes in a 6 panel offset-printed digipack with 8-page booklet, featuring artwork by Francesco de Gallo, liner notes by Habib Bardi and a poem by Yves Charuest."
+            }
+        ],
+        "media": [
+            {
+                "type": "image",
+                "url": "https://f4.bcbits.com/img/0036997495_10.jpg"                    
+            },
+            {
+                "type": "image",
+                "url": "https://f4.bcbits.com/img/0036997496_10.jpg"                    
+            },
+            {
+                "type": "image",
+                "url": "https://f4.bcbits.com/img/0036997497_10.jpg"                    
+            },
+            {
+                "type": "image",
+                "url": "https://f4.bcbits.com/img/0036997498_10.jpg"                    
+            },
+            {
+                "type": "image",
+                "url": "https://f4.bcbits.com/img/0036997501_10.jpg"                    
+            }
+        ]
     },
     {
         "id": "7",
-        "title": "Bunny'apartment, the beach",
+        "title": "Bunny's apartment, the beach",
         "catNo": "ZONE05",
         "date": "September 20, 2025",
         "artist": "Meesh Sara Fradkin / Jon Elbaz + Lamy Istrefi + Elias Stemeseder + Meesh Sara Fradkin",
@@ -227,7 +369,7 @@
             "Three little pigs and they can't",
             "Issue project bathroom",
             "Frogs really do sit on lily pads",
-            "Bluebell pyramid scheme ",
+            "Bluebell pyramid scheme",
             "Nyquila sunrise",
             "Miss you",
             "Baskin-rabbits",
@@ -244,15 +386,38 @@
             "Side B shifts the act into a higher intensity, as the quartet delivers a taut, heavily articulated blend of electronic and acoustic elements. Striking here is the degree of musicality maintained in duration, in and through living mayhem (striking yet not surprising, as Elbaz, Stemeseder, and Istrefi are prominent figures in New York City’s free improvisation spheres). The resulting scenes are explosive, unpredictable (is that... a harpsichord? church bells? a traffic jam?), at times outright comical, playing through tension, horror, humor, confusion, always carried by an unrelenting lyricism.",
             "Experienced in its entirety, this double-debut-album often left us at a loss for words; we at Interzone are indeed struggling to express how grateful we are to be able to welcome such exceptional musicians into our catalogue. F*rtility, abundance, new beginnings, and good luck…!"
         ],
+        "buySection": [
+            {
+                "link": "https://msfmsf.bandcamp.com/album/bunnys-apartment-the-beach",
+                "paragraph": "Digital Album — $9 CAD / $6.54 USD",
+                "linkSection": "Digital Album"
+            },
+            {
+                "link": "https://msfmsf.bandcamp.com/album/bunnys-apartment-the-beach",
+                "paragraph": "Limited Edition Cassette — $15 CAD / $10.89 USD + shipping",
+                "linkSection": "Limited Edition Cassette"
+            },
+            {
+                "paragraph": "Clear case, light blue tape. Edition of 50"
+            },
+            {
+                "link": "http://www.instagram.com/___phoenixherring",
+                "paragraph": "Each copy includes graphic score transcriptions by Phoenix Reign Herring, housed in 4.25'' × 5.25'' glassine envelopes.",
+                "linkSection": "Phoenix Reign Herring"
+            },
+            {
+                "paragraph": "Includes unlimited streaming of Bunny's apartment, the beach via the free Bandcamp app, plus high-quality download in MP3, FLAC and more."
+            }
+        ],
         "credits": [
-            "Meesh Sara Fradkin – computer (tracks 1 to 7)",
-            "Jon Elbaz – keyboard (tracks 1 + 6)",
-            "Adrianna Jasmine Svitak – violin (track 4)",
+            "Meesh Sara Fradkin — computer (tracks 1 to 7)",
+            "Jon Elbaz — keyboard (tracks 1 + 6)",
+            "Adrianna Jasmine Svitak — violin (track 4)",
             "Quartet recordings (tracks 8 to 13):",
-            "Jon Elbaz – keyboard, piano",
-            "Lamy Istrefi – drums, percussion",
-            "Elias Stemeseder – synths",
-            "Meesh Sara Fradkin – computer",
+            "Jon Elbaz — keyboard, piano",
+            "Lamy Istrefi — drums, percussion",
+            "Elias Stemeseder — synths",
+            "Meesh Sara Fradkin — computer",
             "Tracks 8, 9, 10, 12, 13 recorded at Livingrooms",
             "Tracks 1 to 7 mixed by Meesh Sara Fradkin",
             "8 to 13 mixed by Meesh Sara Fradkin and Jon Elbaz",
@@ -267,34 +432,73 @@
             "packageId": "460269316",
             "link": "https://msfmsf.bandcamp.com/album/bunnys-apartment-the-beach"
         },
+        "mediaNote": "** Graphic score transcriptions below correspond with album track order.",
         "media": [
             {
                 "type": "image",
-                "url": "/releases/ZONE05/01.png"                    
+                "url": "/releases/ZONE05/01.png",
+                "desc": "F*rtility, abundance, new beginnings, and good luck"                    
             },
             {
                 "type": "image",
-                "url": "/releases/ZONE05/02.png"                    
+                "url": "/releases/ZONE05/02.png",
+                "desc": "Three little pigs and they can't"
             },
             {
                 "type": "image",
-                "url": "/releases/ZONE05/03.png"                    
+                "url": "/releases/ZONE05/03.png",
+                "desc": "Issue project bathroom"                    
+                
             },
             {
                 "type": "image",
-                "url": "/releases/ZONE05/04.png"                    
+                "url": "/releases/ZONE05/04.png",
+                "desc": "Frogs really do sit on lily pads"                    
             },
             {
                 "type": "image",
-                "url": "/releases/ZONE05/05.png"                    
+                "url": "/releases/ZONE05/05.png",
+                "desc": "Bluebell pyramid scheme"                    
             },
             {
                 "type": "image",
-                "url": "/releases/ZONE05/06.png"                    
+                "url": "/releases/ZONE05/06.png",
+                "desc": "Nyquila sunrise"                    
             },
             {
                 "type": "image",
-                "url": "/releases/ZONE05/07.png"                    
+                "url": "/releases/ZONE05/07.png",
+                "desc": "Miss you"                    
+            },
+            {
+                "type": "image",
+                "url": "/releases/ZONE05/08.png",
+                "desc": "Baskin-rabbits"                    
+            },
+            {
+                "type": "image",
+                "url": "/releases/ZONE05/09.png",
+                "desc": "200 pounds of çebapa"                    
+            },
+            {
+                "type": "image",
+                "url": "/releases/ZONE05/10.png",
+                "desc": "Pomegranate butterfly"                    
+            },
+            {
+                "type": "image",
+                "url": "/releases/ZONE05/11.png",
+                "desc": "Boys go to jupiter"                    
+            },
+            {
+                "type": "image",
+                "url": "/releases/ZONE05/12.png",
+                "desc": "ISO telecommuters"
+            },
+            {
+                "type": "image",
+                "url": "/releases/ZONE05/13.png",
+                "desc": "Cinderella's birkenstock"                    
             },
             {
                 "type": "image",
