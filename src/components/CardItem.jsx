@@ -1,6 +1,6 @@
 import { Card } from "react-bootstrap"
 import { Link } from "react-router-dom"
-
+import ImageLoader from "./ImageLoader"
 
 export default function CardItem({ item, section }) {
     const imageHeight = section === "events" ? "26rem" : "19rem"
@@ -8,7 +8,14 @@ export default function CardItem({ item, section }) {
     return (
         <Card style={{ maxWidth: '18rem', minWidth: "18rem", height: cardHeight}} className='border border-dark rounded-0 p-0'>
             <Link to={`/${section}/${item.id}`} className='more-link bg-black card-img-link'>
-                <img className='card-img' style={{height: imageHeight}} src={item.cover} alt={`${item.section}-${item.title}-poster`} />
+                <ImageLoader 
+                    src={item.cover} 
+                    alt={`${item.section}-${item.title}-poster`} 
+                    className='card-img' 
+                    style={{height: imageHeight}} 
+                    height={imageHeight}
+                    width="100%"
+                />
             </Link>
             <Card.Body className="px-3">
                 <div className="row d-flex justify-content-between">

@@ -1,6 +1,7 @@
 import { Row, Col } from "react-bootstrap"
 import { Link, useLocation } from "react-router"
 import BandcampButton from "./BandcampButton"
+import ImageLoader from "./ImageLoader"
 
 function ReleaseCard({ release }) {
     const location = useLocation().pathname
@@ -10,12 +11,7 @@ function ReleaseCard({ release }) {
             <Col lg={12} md={12} sm={6} xs={6} className="my-3 d-flex gap-5 align-items-center justify-content-center">
                 <Col lg={3} md={4} sm={10} className="text-center mx-auto mx-lg-0 mx-md-0 my-auto">
                     <Link to={release.id} state={{prevLocation: location}} className="link">
-                        <img
-                            className="release-card-img"
-                            src={release.cover}
-                            alt=""
-                        />
-
+                        <ImageLoader src={release.cover} alt={`${release.title} cover`} className="release-card-img" />
                     </Link>
                 </Col>
 

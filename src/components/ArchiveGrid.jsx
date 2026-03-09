@@ -2,6 +2,7 @@ import "./ArchiveGrid.css"
 import { useState } from "react"
 import { Col, Container, Row, Button, OverlayTrigger, Tooltip } from "react-bootstrap";
 import CarouselModal from "./CarouselModal";
+import ImageLoader from "./ImageLoader";
 
 export default function ArchiveGrid({ items }) {
     const [modalShow, setModalShow] = useState(false)
@@ -27,7 +28,7 @@ export default function ArchiveGrid({ items }) {
                                 setModalShow(true)
                                 setIndex(index)
                             }}>
-                                <img src={item.url} />
+                                <ImageLoader src={item.url} alt={item.desc} />
                             </Button>
 
                             </OverlayTrigger>

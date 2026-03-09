@@ -1,5 +1,6 @@
 import { Carousel, Modal } from 'react-bootstrap';
 import "./CarouselModal.css"
+import ImageLoader from './ImageLoader';
 
 export default function CarouselModal(props) {
     return (
@@ -17,7 +18,7 @@ export default function CarouselModal(props) {
                     {props.items.map(item => (
                         <Carousel.Item key={`carousel-modal-${item.url}`}>
                             <div className='p-0 m-0 modal-img-section'>
-                                <img className="modal-img" src={item.url} />
+                                <ImageLoader src={item.url} alt="" className="modal-img" />
                             </div>
                         </Carousel.Item>
 
