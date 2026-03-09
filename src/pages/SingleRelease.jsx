@@ -1,13 +1,12 @@
-import { useParams, Link, useLocation } from "react-router-dom"
+import { useParams, Link, useLocation, useOutletContext } from "react-router-dom"
 import { Container, Row, Col } from "react-bootstrap"
-import { useRelease } from "../components/MainLayout"
 import ArchiveGrid from "../components/ArchiveGrid"
 import BandcampPlayer from "../components/BandcampPlayer"
 
-
-export default function SingleRelease() {
+function SingleRelease() {
+    const { releases } = useOutletContext()
     const releaseId = useParams().id
-    const release = useRelease(releaseId)
+    const release = useRelease(releases, releaseId)
     const location = useLocation()
     const prevLocation = location.state ? location.state.prevLocation.replace("/", "") : "home"
     const backToLocation = prevLocation === "home" ? "/" : `/${prevLocation}`
@@ -26,14 +25,14 @@ export default function SingleRelease() {
                     const keyValue=`${release.catNo}-buy${linkIndex}${index}`
                     return (
                         <span key={keyValue}>
-                                {part}
-                                {index < parts.length - 1 && (
-                                    <a href={link} target="_blank" className="anchor-link">{linkSection}</a>
-                                )}
-                            </span>
-                        )}
+                            {part}
+                            {index < parts.length - 1 && (
+                                <a href={link} target="_blank" className="anchor-link">{linkSection}</a>
+                            )}
+                        </span>
+                    )}
 
-                    )
+                )
 
                 }
             </p>
@@ -45,8 +44,8 @@ export default function SingleRelease() {
 
     return (
         <Container className="pt-4">
-            <Link to={backToLocation} className="back-to-link"> 
-                &larr; <span>Back to {prevLocation}</span> 
+            <Link to={backToLocation} className="back-to-link">
+                &larr; <span>Back to {prevLocation}</span>
             </Link>
             <Row>
                 <Col className="col-lg-8 d-flex-col mx-sm-auto px-4 px-lg-1" >
@@ -96,10 +95,22 @@ export default function SingleRelease() {
                     {release.mediaNote && <p className="fst-italic mb-5">{release.mediaNote}</p>}
                     <ArchiveGrid items={release.media} />
                 </Col>
-
             </Row>
-
-
         </Container>
     )
 }
+
+function useRelease(releases, releaseId) {
+    const release = releases.find(release => release.id === releaseId)
+    if (!release) {
+        throw {
+            message: "Release not found"
+        }
+    }
+    else {
+        return release
+    }
+
+}
+
+export default SingleRelease

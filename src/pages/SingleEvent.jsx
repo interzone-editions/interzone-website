@@ -1,19 +1,19 @@
-import { Link, useLocation, useParams } from "react-router-dom"
+import { Link, useLocation, useParams, useOutletContext } from "react-router-dom"
 import { Container, Row, Col, Button } from "react-bootstrap"
-import { useEvent } from "../components/MainLayout"
-
 
 function SingleEvent() {
     const eventId = useParams().id
-    const event = useEvent(eventId)
-    const pastEvent =  new Date(event.date) < new Date()
+    const { events } = useOutletContext()
+    const event = useEvent(events, eventId)
+    const pastEvent = new Date(event.date) < new Date()
     const location = useLocation()
     const prevLocation = location.state ? location.state.prevLocation.replace("/", "") : "home"
     const backToLocation = prevLocation === "home" ? "/" : `/${prevLocation}`
+
     return (
         <Container className="pt-4">
-            <Link to={backToLocation} className="back-to-link"> 
-                &larr; <span >Back to {prevLocation}</span> 
+            <Link to={backToLocation} className="back-to-link">
+                &larr; <span >Back to {prevLocation}</span>
             </Link>
             <Row className="mb-5">
 
@@ -32,22 +32,34 @@ function SingleEvent() {
                             {paragraph}
                         </p>
                     ))}
-                    
+
                     <Row className="my-4">
-                        <a 
-                            href={pastEvent ? "javascript:void(0)": event.ticketLink} 
-                            target={pastEvent ? "":"_blank"} 
-                            className={pastEvent ? "pe-none text-center": "text-center"}>
-                        <Button disabled={pastEvent} variant="light" className="ticket-btn">
-                            Get your ticket
-                        </Button>
+                        <a
+                            href={pastEvent ? "javascript:void(0)" : event.ticketLink}
+                            target={pastEvent ? "" : "_blank"}
+                            className={pastEvent ? "pe-none text-center" : "text-center"}>
+                            <Button disabled={pastEvent} variant="light" className="ticket-btn">
+                                Get your ticket
+                            </Button>
                         </a>
                     </Row>
                     {/* TODO: ADD ARCHIVE MEDIA GRID <ArchiveGrid items={imageArchives}/> */}
-                </Col> 
+                </Col>
             </Row>
         </Container>
     )
+}
+
+export function useEvent(events, eventId) {
+    const event = events.find(event => event.id === eventId)
+    if (!event) {
+        throw {
+            message: "Event not found"
+        }
+    }
+    else {
+        return event
+    }
 }
 
 export default SingleEvent
