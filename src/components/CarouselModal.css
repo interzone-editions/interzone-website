@@ -15,7 +15,9 @@
   min-width: 90vw;
 }
 
-.modal-content, .modal-body, .modal-header {
+.modal-content,
+.modal-body,
+.modal-header {
   border-left: none !important;
   border-right: none !important;
   border-top: none !important;

@@ -1,7 +1,7 @@
 import { Col, Container, Row } from "react-bootstrap"
 import { useOutletContext } from "react-router-dom"
 
-export default function About() {
+function About() {
     const { about } = useOutletContext()
 
     return (
@@ -20,3 +20,5 @@ export default function About() {
         </Container>
     )
 }
+
+export default About

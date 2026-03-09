@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 import "./HomeCarousel.css"
 import ImageLoader from './ImageLoader'
 
-export default function HomeCarousel({items}) {
+function HomeCarousel({items}) {
     return (
         <Carousel indicators={false} className="home-carousel">
             {items.map((item, index) => (
@@ -26,3 +26,5 @@ export default function HomeCarousel({items}) {
         </Carousel>
     )
 }
+
+export default HomeCarousel

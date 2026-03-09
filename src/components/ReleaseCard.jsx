@@ -10,7 +10,7 @@ function ReleaseCard({ release }) {
         <>
             <Col lg={12} md={12} sm={6} xs={6} className="my-3 d-flex gap-5 align-items-center justify-content-center">
                 <Col lg={3} md={4} sm={10} className="text-center mx-auto mx-lg-0 mx-md-0 my-auto">
-                    <Link to={release.id} state={{prevLocation: location}} className="link">
+                    <Link to={release.id} state={{ prevLocation: location }} className="link">
                         <ImageLoader src={release.cover} alt={`${release.title} cover`} className="release-card-img" />
                     </Link>
                 </Col>
@@ -34,7 +34,7 @@ function ReleaseCard({ release }) {
                         </p>
                     </Row>
                     <Row className="d-flex flex-row justify-content-between me-2">
-                        <Link to={release.id} state={{prevLocation: location}} className="more-info-btn">
+                        <Link to={release.id} state={{ prevLocation: location }} className="more-info-btn">
                             More info
                         </Link>
                         <BandcampButton link={release.bandcamp.link} />

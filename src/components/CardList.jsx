@@ -2,7 +2,6 @@ import { useRef, useState } from 'react'
 import CardItem from './CardItem'
 import "./CardList.css"
 import { Link } from 'react-router'
-import { Row } from 'react-bootstrap'
 
 function CardList({ items, section }) {
     const [buttonsActive, setButtonsActive] = useState({ prev: false, next: true })

@@ -4,9 +4,8 @@ import { Col, Container, Row, Button, OverlayTrigger, Tooltip } from "react-boot
 import CarouselModal from "./CarouselModal";
 import ImageLoader from "./ImageLoader";
 
-export default function ArchiveGrid({ items }) {
+function ArchiveGrid({ items }) {
     const [modalShow, setModalShow] = useState(false)
-
     const [index, setIndex] = useState(0);
 
     const handleSelect = (selectedIndex) => {
@@ -21,15 +20,15 @@ export default function ArchiveGrid({ items }) {
                         {items.map((item, index) => (
                             <OverlayTrigger
                                 placement="bottom"
-                                overlay={<Tooltip>{item.desc? item.desc:undefined}</Tooltip>}
+                                overlay={<Tooltip>{item.desc ? item.desc : undefined}</Tooltip>}
                                 key={`archive-section-${index}`}
                             >
-                            <Button className="archive-button"  variant="black" onClick={() => {
-                                setModalShow(true)
-                                setIndex(index)
-                            }}>
-                                <ImageLoader src={item.url} alt={item.desc} />
-                            </Button>
+                                <Button className="archive-button" variant="black" onClick={() => {
+                                    setModalShow(true)
+                                    setIndex(index)
+                                }}>
+                                    <ImageLoader src={item.url} alt={item.desc} />
+                                </Button>
 
                             </OverlayTrigger>
                         ))}
@@ -46,5 +45,6 @@ export default function ArchiveGrid({ items }) {
             />
         </>
     )
-
 }
+
+export default ArchiveGrid

@@ -1,8 +1,8 @@
-import { useState } from 'react';
-import { Placeholder } from 'react-bootstrap';
+import { useState } from 'react'
+import { Placeholder } from 'react-bootstrap'
 
-const ImageLoader = ({ src, alt = "", className = undefined, style = undefined, height = "340px", width = "250px" }) => {
-    const [loaded, setLoaded] = useState(false);
+function ImageLoader({ src, alt = "", className = undefined, style = undefined, height = "340px", width = "250px" }) {
+    const [loaded, setLoaded] = useState(false)
 
     const handleLoad = () => {
         setLoaded(true);
@@ -21,10 +21,8 @@ const ImageLoader = ({ src, alt = "", className = undefined, style = undefined, 
                 style={loaded ? style : { ...style, display: 'none' }}
                 className={className}
             />
-
-
         </>
-    );
-};
+    )
+}
 
-export default ImageLoader;
+export default ImageLoader

@@ -52,8 +52,6 @@ function Footer() {
                     </a>
                 </Col>
             </Row>
-
-
         </footer>
     )
 }

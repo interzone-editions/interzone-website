@@ -1,5 +1,6 @@
 import "./BandcampPlayer.css"
-export default function BandcampPlayer({ albumId, link, title, artist }) {
+
+function BandcampPlayer({ albumId, link, title, artist }) {
     return (
         <iframe
             className="bc-player"
@@ -24,3 +25,5 @@ export default function BandcampPlayer({ albumId, link, title, artist }) {
         seamless>
     </iframe>
 } */}
+
+export default BandcampPlayer

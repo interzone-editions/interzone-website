@@ -16,10 +16,10 @@ function Events() {
                         className="text-center"
                     >
                         <Link to={event.id} state={{ prevLocation: location }} className="more-link">
-                            <ImageLoader 
-                                src={event.cover} 
-                                alt={`${event.name} cover`} 
-                                className="event-cover" 
+                            <ImageLoader
+                                src={event.cover}
+                                alt={`${event.name} cover`}
+                                className="event-cover"
                                 width="500px"
                             />
                         </Link>

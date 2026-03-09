@@ -2,7 +2,7 @@ import { Carousel, Modal } from 'react-bootstrap';
 import "./CarouselModal.css"
 import ImageLoader from './ImageLoader';
 
-export default function CarouselModal(props) {
+function CarouselModal(props) {
     return (
         <Modal
             {...props}
@@ -28,3 +28,5 @@ export default function CarouselModal(props) {
         </Modal>
     );
 }
+
+export default CarouselModal

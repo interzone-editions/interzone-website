@@ -17,21 +17,23 @@ export async function loader() {
         releases: releases.sort((a, b) => b.id - a.id),
         recent: recent
     }
-} 
+}
 
-export default function MainLayout() {
-    const location = useLocation();
-    const data = useLoaderData();
-    
+function MainLayout() {
+    const location = useLocation()
+    const data = useLoaderData()
+
     useLayoutEffect(() => {
-        document.documentElement.scrollTo({ top:0, left:0, behavior: "instant" });
-    }, [location.pathname]);    
+        document.documentElement.scrollTo({ top: 0, left: 0, behavior: "instant" });
+    }, [location.pathname])
 
     return (
         <>
             <Navbar />
-            <Outlet context={data}/>
+            <Outlet context={data} />
             <Footer />
         </>
     )
 }
+
+export default MainLayout

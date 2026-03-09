@@ -2,6 +2,7 @@ import { useParams, Link, useLocation, useOutletContext } from "react-router-dom
 import { Container, Row, Col } from "react-bootstrap"
 import ArchiveGrid from "../components/ArchiveGrid"
 import BandcampPlayer from "../components/BandcampPlayer"
+import { buildParagraph } from "../services/utils"
 
 function SingleRelease() {
     const { releases } = useOutletContext()
@@ -11,35 +12,8 @@ function SingleRelease() {
     const prevLocation = location.state ? location.state.prevLocation.replace("/", "") : "home"
     const backToLocation = prevLocation === "home" ? "/" : `/${prevLocation}`
 
-    function buildParagraph({ link, paragraph, linkSection }, linkIndex) {
-        const keyValue=`${release.catNo}-buy${linkIndex}0`
-        if (!link || !linkSection) {
-            return <p key={keyValue}>{paragraph}</p>;
-        }
-
-        const parts = paragraph.split(linkSection);
-
-        return (
-            <p key={keyValue}>
-                {parts.map((part, index) => {
-                    const keyValue=`${release.catNo}-buy${linkIndex}${index}`
-                    return (
-                        <span key={keyValue}>
-                            {part}
-                            {index < parts.length - 1 && (
-                                <a href={link} target="_blank" className="anchor-link">{linkSection}</a>
-                            )}
-                        </span>
-                    )}
-
-                )
-
-                }
-            </p>
-        );
-    }
     const buySection = release.buySection && release.buySection.map((linkObject, index) => (
-        buildParagraph(linkObject, index)
+        buildParagraph(release.catNo, linkObject, index)
     ))
 
     return (
