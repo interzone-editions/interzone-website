@@ -131,6 +131,7 @@ body {
 
 /* SINGLE EVENT PAGE */
 .event-cover {
+  width: 500px;
   max-width: 80vw;
 }
 

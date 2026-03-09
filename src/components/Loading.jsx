@@ -1,11 +1,11 @@
 import "./Loading.css"
 
-export default function Loading() {
+function Loading() {
     return (
         <div className="loading-container">
             <div className="loading-content">
-                <img 
-                    src="https://f4.bcbits.com/img/0030985725_100.png" 
+                <img
+                    src="https://f4.bcbits.com/img/0030985725_100.png"
                     alt="Loading..."
                     className="loading-banner"
                 />
@@ -18,3 +18,5 @@ export default function Loading() {
         </div>
     )
 }
+
+export default Loading
